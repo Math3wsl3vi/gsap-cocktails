@@ -1,7 +1,7 @@
 const navLinks = [
  {
 	id: "cocktails",
-	title: "Cocktails",
+	title: "Our Coffee Drinks",
  },
  {
 	id: "about",
@@ -87,18 +87,19 @@ const profileLists = [
 ];
 
 const featureLists = [
- "Perfectly balanced blends",
- "Garnished to perfection",
- "Ice-cold every time",
- "Expertly shaken & stirred",
+  "Perfectly balanced blends",
+  "Finished with silky latte art",
+  "Served hot — or iced to perfection",
+  "Expertly brewed and poured",
 ];
 
 const goodLists = [
- "Handpicked ingredients",
- "Signature techniques",
- "Bartending artistry in action",
- "Freshly muddled flavors",
+  "Hand-selected coffee beans",
+  "Signature brewing techniques",
+  "Barista craftsmanship in action",
+  "Freshly ground, rich aromas",
 ];
+
 
 const storeInfo = {
  heading: "Where to Find Us",
@@ -135,39 +136,41 @@ const socials = [
 ];
 
 const allCocktails = [
- {
-	id: 1,
-	name: "Classic Mojito",
-	image: "/images/drink1.png",
-	title: "Simple Ingredients, Bold Flavor",
-	description:
-	 "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
- },
- {
-	id: 2,
-	name: "Raspberry Mojito",
-	image: "/images/drink2.png",
-	title: "A Zesty Classic That Never Fails",
-	description:
-	 "The Margarita is a classic that balances tangy lime, smooth tequila, and a touch of sweetness. Shaken, frozen, or on the rocks—it’s always crisp & refreshing.",
- },
- {
-	id: 3,
-	name: "Violet Breeze",
-	image: "/images/drink3.png",
-	title: "Simple Ingredients, Bold Flavor",
-	description:
-	 "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
- },
- {
-	id: 4,
-	name: "Curacao Mojito",
-	image: "/images/drink4.png",
-	title: "Crafted With Care, Poured With Love",
-	description:
-	 "Each cocktail is made with fresh ingredients and a passion for perfecting every pour, whether you're celebrating or simply relaxing.",
- },
+  {
+    id: 1,
+    name: "Classic Latte",
+    image: "/images/coffee-menu-8.png",
+    title: "Simple Ingredients, Rich Flavor",
+    description:
+      "Made with freshly pulled espresso and steamed milk, our latte is smooth, creamy, and perfectly balanced — great any time of day.",
+  },
+  {
+    id: 2,
+    name: "Iced Caramel Latte",
+    image: "/images/coffee-menu-10.png",
+    title: "A Sweet Favorite That Never Fails",
+    description:
+      "Chilled espresso, milk, and caramel come together for a refreshing pick-me-up. Lightly sweet, silky, and incredibly satisfying.",
+  },
+  {
+  id: 3,
+  name: "Mocha Cappuccino",
+  image: "/images/coffee3.png",
+  title: "Rich, Smooth & Indulgent",
+  description:
+    "Bold espresso meets creamy foam and smooth chocolate, creating a comforting cappuccino with deep flavor, balance, and a touch of indulgence.",
+},
+
+  {
+    id: 4,
+    name: "Classic Americano",
+    image: "/images/coffee-menu-9.png",
+    title: "Crafted With Care, Brewed With Passion",
+    description:
+      "Brewed slowly to highlight natural flavors — bright, clean, and nuanced. Each cup celebrates the unique story of its beans.",
+  },
 ];
+
 
 export {
  navLinks,

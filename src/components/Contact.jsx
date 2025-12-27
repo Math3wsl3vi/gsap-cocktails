@@ -31,8 +31,8 @@ const Contact = () => {
  
  return (
 	<footer id="contact">
-	 <img src="/images/footer-right-leaf.png" alt="leaf-right" id="f-right-leaf" />
-	 <img src="/images/footer-left-leaf.png" alt="leaf-left" id="f-left-leaf" />
+	 <img src="/images/bean5.png" alt="leaf-right" id="f-right-leaf" />
+	 <img src="/images/bottom-bean.png" alt="leaf-left" id="f-left-leaf" />
 	 
 	 <div className="content">
 		<h2>Where to Find Us</h2>
@@ -45,7 +45,7 @@ const Contact = () => {
 		<div>
 		 <h3>Contact Us</h3>
 		 <p>+254 717 271 815</p>
-		 <p>cocktails@gmail.com</p>
+		 <p>frappe@gmail.com</p>
 		</div>
 		
 		<div>
